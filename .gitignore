@@ -1,0 +1,49 @@
+# ── Compiled Java output ───────────────────────
+*.class
+*.jar
+*.war
+*.ear
+
+# ── Build directories ──────────────────────────
+target/
+build/
+out/
+bin/
+
+# ── IDE — Eclipse ──────────────────────────────
+.classpath
+.project
+.settings/
+
+# ── IDE — IntelliJ IDEA ────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── IDE — VS Code ──────────────────────────────
+.vscode/
+
+# ── Maven ──────────────────────────────────────
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# ── OS files ───────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ───────────────────────────────────────
+*.log
+logs/
+
+# ── Secrets / credentials ──────────────────────
+# Never commit passwords or API keys.
+config.properties
+*.env
+
+# ── XAMPP / Tomcat deployment artifacts ────────
+catalina.out

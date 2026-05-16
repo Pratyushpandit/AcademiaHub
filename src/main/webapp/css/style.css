@@ -1,0 +1,36 @@
+/* AcademiaHub - style.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #222; background: #f4f6f8; min-height: 100vh; display: flex; flex-direction: column; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { width: 100%; max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.main-content { flex: 1; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
+.site-header { background: #1e293b; color: #fff; padding: 14px 0; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; }
+.site-logo { font-size: 20px; font-weight: bold; color: #fff; }
+.site-nav { display: flex; align-items: center; gap: 16px; }
+.nav-user { font-size: 14px; color: #cbd5e1; }
+.site-footer { background: #1e293b; color: #94a3b8; text-align: center; padding: 14px 0; font-size: 13px; }
+.btn { display: inline-block; padding: 9px 20px; border-radius: 4px; font-size: 14px; font-weight: bold; cursor: pointer; border: none; text-align: center; }
+.btn-primary { background: #2563eb; color: #fff; width: 100%; padding: 11px 20px; font-size: 15px; }
+.btn-primary:hover { background: #1d4ed8; text-decoration: none; color: #fff; }
+.btn-outline { background: transparent; color: #fff; border: 1px solid #fff; padding: 7px 16px; }
+.btn-outline:hover { background: #fff; color: #1e293b; text-decoration: none; }
+.form-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 36px 40px; width: 100%; max-width: 420px; }
+.form-card h2 { font-size: 20px; margin-bottom: 20px; color: #1e293b; }
+.form-group { margin-bottom: 16px; }
+.form-group label { display: block; font-size: 13px; font-weight: bold; margin-bottom: 5px; color: #374151; }
+.form-group input { width: 100%; padding: 9px 12px; border: 1px solid #d1d5db; border-radius: 4px; font-size: 14px; }
+.form-group input:focus { outline: none; border-color: #2563eb; }
+.form-footer { margin-top: 16px; font-size: 13px; color: #6b7280; text-align: center; }
+.message-error { background: #fef2f2; border: 1px solid #fca5a5; color: #b91c1c; padding: 9px 12px; border-radius: 4px; font-size: 13px; margin-bottom: 16px; }
+.message-success { background: #f0fdf4; border: 1px solid #86efac; color: #166534; padding: 9px 12px; border-radius: 4px; font-size: 13px; margin-bottom: 16px; }
+.error-card { background: #fff; border: 1px solid #e2e8f0; border-radius: 6px; padding: 48px 40px; width: 100%; max-width: 480px; text-align: center; }
+.error-card h2 { font-size: 22px; color: #1e293b; margin-bottom: 12px; }
+.error-card p { color: #6b7280; margin-bottom: 24px; font-size: 14px; }
+.error-card .btn-primary { width: auto; display: inline-block; }
+@media (max-width: 480px) {
+    .form-card, .error-card { padding: 24px 20px; }
+    .header-inner { flex-direction: column; gap: 10px; }
+    .site-nav { flex-direction: column; gap: 8px; }
+}
