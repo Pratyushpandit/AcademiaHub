@@ -1,4 +1,3 @@
-```markdown
 # 🎓 AcademiaHub
 
 **AcademiaHub** is a modern **Academic Management System** developed for Islington College using Java JSP, Servlets, and MySQL. It features a beautiful dark UI with gold accents and provides students & faculty with an intuitive platform to manage academic activities.
@@ -67,7 +66,7 @@ AcademiaHub/
 ### Prerequisites
 
 - **JDK 8 or higher**
-- **Apache Tomcat 11** 
+- **Apache Tomcat 11**
 - **MySQL Server** (XAMPP / MySQL Workbench recommended)
 - **Eclipse IDE for Enterprise Java Developers**
 
@@ -95,7 +94,7 @@ AcademiaHub/
 
 Open your browser and go to:
 
-**`http://localhost:8080/AcademiaHub/`**
+`http://localhost:8080/AcademiaHub/`
 
 - **Login Page**: `/login`
 - **Register**: `/register`
@@ -118,7 +117,7 @@ Open your browser and go to:
 
 - Database connection settings are in `com.academiahub.config.DBConfig`
 - All JSP files are located under `pages/` folder
-- Static resources (CSS, images) are served from `WebContent`
+- Static resources (CSS, images) are served from `webapp/`
 - Session-based authentication is implemented
 
 ---
@@ -144,5 +143,3 @@ Feel free to fork this project and submit pull requests for improvements.
 ---
 
 **Made with ❤️ for Islington College**
-
-```
