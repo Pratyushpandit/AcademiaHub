@@ -62,3 +62,7 @@ INSERT INTO announcements (title, content, posted_by, posted_date, category) VAL
 ('Library Extended Hours During Exam Period',
  'The college library will remain open until 10:00 PM on weekdays during the examination period from May 25 to June 10. Weekend hours are 9:00 AM to 6:00 PM.',
  'Library Services', '2026-05-08', 'Academic');
+
+ALTER TABLE users 
+ADD COLUMN reset_token VARCHAR(255) NULL,
+ADD COLUMN reset_token_expiry DATETIME NULL;

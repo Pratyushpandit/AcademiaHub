@@ -46,6 +46,8 @@
         </form>
 
         <p class="form-footer">No account? <a href="${pageContext.request.contextPath}/register">Register here</a></p>
+        <p class="form-footer">Forgot password? <a href="${pageContext.request.contextPath}/forgotpassword">Change it here</a></p>
+        
     </div>
 </main>
 
